@@ -3,11 +3,13 @@ import os
 
 playerAscore=0
 playerBscore=0
+
+
   
 #create a window and declare a variable called window and call the screen()
 window=t.Screen()
 window.title("The Pong Game")
-window.bgcolor("green")
+window.bgcolor("yellow")
 window.setup(width=800,height=600)
 window.tracer(0)
   
